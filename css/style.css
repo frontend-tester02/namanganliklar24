@@ -9,7 +9,7 @@ html {
 
 body {
   display: flex;
-  font-display: column;
+  flex-direction: column;
   height: 100%;
   padding: 0;
   margin: 0;
@@ -25,6 +25,32 @@ body {
   height: auto;
 }
 
+/* BUTTON */
+
+.button {
+  display: inline-block;
+  padding: 13px 20px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+}
+.button-primary {
+  background-color: #7296ec;
+  color: #fff;
+}
+
+.button-primary:hover {
+  opacity: 0.8;
+}
+
+.button-primary:active {
+  opacity: 0.6;
+}
+
 /* CONTAINER */
 
 .container {
@@ -35,4 +61,121 @@ body {
   margin-left: auto;
   margin-right: auto;
 
+}
+
+/* SITE-HEADER */
+
+.site-header-top {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #F6F6F6;
+}
+
+
+.site-header-top-container {
+  display: flex;
+  align-items: center;
+}
+
+
+.site-header-logo {
+  display: flex;
+  padding: 8px 6px;
+  margin-right: 35px;
+  border-radius:7px;
+  width: 264px;
+  height: 28px;
+  background-color: #fff;
+}
+
+.site-header-logo:hover {
+  opacity: 0.8;
+}
+
+.site-header-logo:active {
+  opacity: 0.6;
+}
+
+.currency-rates {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin-left: -150px;
+
+}
+
+/* CURRENCY RATES */
+.currency-rates {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  margin-right: auto;
+  list-style: none;
+}
+.currency-rates-item:not(:last-child) {
+  margin-right: 25px;
+}
+.currency-rates-type {
+  color:#2959ce;
+}
+
+.lang-toggle {
+  display: flex;
+  padding: 3px;
+  margin-right: 25px;
+  border-radius:39px;
+  background-color: #dce6ff;
+  font-size: 13px;
+}
+.lang-toggle-link {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  color: #a6a6a6;
+  border-radius: 50%;
+  text-align: center;
+  text-decoration: none;
+
+}
+.lang-toggle-link-active {
+  background-color: #fff;
+  color: #000;
+}
+
+
+/* SITE HEADER-BETWEEN STYLES */
+.site-header-between-container {
+
+
+}
+
+.site-header-between-lists {
+  display: flex;
+  justify-content: space-around;
+  align-items:center;
+  padding-top: 12px;
+  padding: 0;
+  list-style:none;
+}
+.site-header-between-lists-item {
+  padding: 5px;
+  margin-right: 40px;
+}
+
+.site-header-between-lists-item:last-child {
+  margin-right: 0;
+}
+.site-lists-link {
+  font-size: 18px;
+  color:#7F7F7F;
+  text-decoration: none;
+}
+
+.line {
+  opacity: 0.5;
+}
+
+.site-header-between-img {
+  padding-top: 25px;
 }
