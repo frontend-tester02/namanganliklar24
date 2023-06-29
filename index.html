@@ -34,14 +34,10 @@
             </li>
           </ul>
 
-
         <!-- GLOBAL SEARCH FORM -->
-
         <form class="global-search-form" action="https://echo.htmlacademy.ru" method="GET">
           <input class="global-search-form-input" type="search" name="search" placeholder="Поиск" aria-label="Поиск" required>
         </form>
-
-
 
         <!-- LANG-TOGGLE -->
         <div class="lang-toggle">
@@ -54,87 +50,155 @@
       </div>
     </div>
 
-    <!-- SITE-HEADER-BETWEEN-->
-    <div class="site-header-between">
-      <div class="site-header-between-container container">
-        <ul class="site-header-between-lists">
-          <li class="site-header-between-lists-item">
-            <a href="#" class="site-lists-link">Главное</a>
+    <div class="container">
+      <!-- SITENAV -->
+
+      <nav class="sitenav">
+        <ul class="sienav-list">
+          <li class="sitenav-item">
+            <a href="#" class="sitenav-link">Главное</a>
           </li>
-          <li class="site-header-between-lists-item">
-            <a href="#" class="site-lists-link">Интересное</a>
+          <li class="sitenav-item">
+            <a href="#" class="sitenav-link">Интересное</a>
           </li>
-          <li class="site-header-between-lists-item">
-            <a href="#" class="site-lists-link">Экономика</a>
+          <li class="sitenav-item">
+            <a href="#" class="sitenav-link">Экономика</a>
           </li>
-          <li class="site-header-between-lists-item">
-            <a href="#" class="site-lists-link">Политика</a>
+          <li class="sitenav-item">
+            <a href="#" class="sitenav-link">Политика</a>
           </li>
-          <li class="site-header-between-lists-item">
-            <a href="#" class="site-lists-link">Общество</a>
+          <li class="sitenav-item">
+            <a href="#" class="sitenav-link">Общество</a>
           </li>
-          <li class="site-header-between-lists-item">
-            <a href="#" class="site-lists-link">Технологии</a>
+          <li class="sitenav-item">
+            <a href="#" class="sitenav-link">Технологии</a>
           </li>
-          <li class="site-header-between-lists-item">
-            <a href="#" class="site-lists-link">Спорт</a>
+          <li class="sitenav-item">
+            <a href="#" class="sitenav-link">Спорт</a>
           </li>
-          <li class="site-header-between-lists-item">
-            <a href="#" class="site-lists-link">Культура</a>
+          <li class="sitenav-item">
+            <a href="#" class="sitenav-link">Культура</a>
           </li>
-          <li class="site-header-between-lists-item">
-            <a href="#" class="site-lists-link">Происшествия</a>
+          <li class="sitenav-item">
+            <a href="#" class="sitenav-link">Происшествия</a>
           </li>
-          <li class="site-header-between-lists-item">
-            <a href="#" class="site-lists-link">Наука</a>
+          <li class="sitenav-item">
+            <a href="#" class="sitenav-link">Наука</a>
           </li>
         </ul>
-        <hr class="line">
+      </nav>
 
-        <div class="site-header-between-img">
-          <img src="img/optimize 1.jpg" alt="Ad img" width="1200" height="120">
-        </div>
-      </div>
+      <!-- SITE-HEADER-BANNER -->
+
+      <aside class="site-header-banner">
+        <a class="site-header-banner-link" href="https://olcha.uz" target="_blank">
+          <img class="site-header-banner-img" src="img/optimize 1.jpg" alt="shopMe banner" width="1200" height="128">
+        </a>
+      </aside>
     </div>
   </header>
 
-
   <!-- MAIN SECTION -->
 
-  <!-- Card section -->
+  <main class="main-content">
+    <div class="container">
 
-  <main>
-    <section class="card-section">
-      <div class="card-section-container container">
-        <div class="cards-section">
-          <div class="cards-section-items">
-            <div class="cards-section-item">
-              <p class="cards-section-title">Кандидат на пост канцлера ФРГ Шольц назвал условия коалиционного соглашения</p>
-              <p class="cards-section-text">Лидер Социал-демократической партии Германии (СДПГ) и кандидат на должность...</p>
-              <img src="img/image 3.jpg" alt="Card img" width="359" height="165">
-              <img src="img/image 4.svg" alt="Card logo" width="20" height="20">
-              <span>ИА Красная Весна 15:55</span>
+      <!-- TOP-NEWS -->
 
-            </div>
-          </div>
-          <div class="cards-section-items">
-            <div class="cards-section-item"></div>
-          </div>
-          <div class="cards-section-items">
-            <div class="cards-section-item"></div>
-          </div>
-          <div class="cards-section-items">
-            <div class="cards-section-item"></div>
-          </div>
-          <div class="cards-section-items">
-            <div class="cards-section-item"></div>
-          </div>
-          <div class="cards-section-items">
-            <div class="cards-section-item"></div>
-          </div>
-      </div>
-    </section>
+      <section class="top-news">
+        <div class="news-grid">
+          <!-- NEWS-GRID-ITEM -->
+          <article class="news-grid-item article-card">
+            <h3 class="article-card-title">
+              <a class="article-card-link" href="#">Кандидат на пост канцлера ФРГ Шольц назвал условия коалиционного соглашения</a>
+            </h3>
+            <p class="article-card-text">Лидер Социал-демократической партии Германии (СДПГ) и кандидат на должность...</p>
+            <img class="article-card-img" src="img/cards-img/germaniya.jpg" alt="Кандидат на пост канцлера ФРГ Шольц назвал условия коалиционного соглашения" width="360" height="165" srcset="img/cards-img/germaniya.jpg 1x, img/cards-img/germaniya@2x.jpg 2x">
+            <footer class="article-card-footer">
+              <img src="img/image 4.svg" alt="ИА Красная Весна 15:55" class="article-card-source-icon" width="20" height="20">
+              <div class="article-card-source-time">
+                <span class="article-card-source">ИА Красная Весна 15:55</span>
+              </div>
+            </footer>
+          </article>
+           <!-- NEWS-GRID-ITEM -->
+           <article class="news-grid-item article-card">
+            <h3 class="article-card-title">
+              <a class="article-card-link" href="#">Ученые доказали экспериментальным путем пользу покровных культур</a>
+            </h3>
+            <p class="article-card-text">Новое исследование ученых университета Иллинойса объединяет полевые данные... </p>
+            <img class="article-card-img" src="img/cards-img/bug'doy.jpg" alt="Ученые доказали экспериментальным путем пользу покровных культур" width="360" height="165" srcset="img/cards-img/bug'doy.jpg 1x, img/cards-img/bug'doy@2x.jpg 2x">
+            <footer class="article-card-footer">
+              <img src="img/image 5.svg" alt="Газета.Ru 12:54" class="article-card-source-icon" width="20" height="20">
+              <div class="article-card-source-time">
+                <span class="article-card-source">Газета.Ru 12:54</span>
+              </div>
+            </footer>
+          </article>
+           <!-- NEWS-GRID-ITEM -->
+           <article class="news-grid-item article-card">
+            <h3 class="article-card-title">
+              <a class="article-card-link" href="#">Baidu запустила публичный сервис роботакси Apollo Go в Шанхае</a>
+            </h3>
+            <p class="article-card-text">Автопарк Baidu состоит из модифицированных электромобилей EV... </p>
+            <img class="article-card-img" src="img/cards-img/car.jpg" alt="Baidu запустила публичный сервис роботакси Apollo Go в Шанхае" width="360" height="165" srcset="img/cards-img/car.jpg 1x, img/cards-img/car@2x.jpg 2x">
+            <footer class="article-card-footer">
+              <img src="img/image 6.svg" alt="Хайтек+ 13:44" class="article-card-source-icon" width="20" height="20">
+              <div class="article-card-source-time">
+                <span class="article-card-source">Хайтек+ 13:44</span>
+              </div>
+            </footer>
+          </article>
+           <!-- NEWS-GRID-ITEM -->
+           <article class="news-grid-item article-card">
+            <h3 class="article-card-title">
+              <a class="article-card-link" href="#">Стали известны ёмкости аккумуляторов всех моделей iPhone 13</a>
+            </h3>
+            <p class="article-card-text">Во время презентации iPhone 13 Apple придала большое значения...</p>
+            <img class="article-card-img" src="img/cards-img/iphone13.jpg" alt="Стали известны ёмкости аккумуляторов всех моделей iPhone 13" width="360" height="165" srcset="img/cards-img/iphone13.jpg 1x, img/cards-img/iphone13@2x.jpg 2x">
+            <footer class="article-card-footer">
+              <img src="img/image 7.svg" alt="Digger.ru 14:25" class="article-card-source-icon" width="20" height="20">
+              <div class="article-card-source-time">
+                <span class="article-card-source">Digger.ru 14:25</span>
+              </div>
+            </footer>
+          </article>
+           <!-- NEWS-GRID-ITEM -->
+           <article class="news-grid-item article-card">
+            <h3 class="article-card-title">
+              <a class="article-card-link" href="#">Nature: ученые смогли доказать природное происхождение коронавируса SARS-CoV-2</a>
+            </h3>
+            <p class="article-card-text">Во время презентации iPhone 13 Apple придала большое значение...</p>
+            <img class="article-card-img" src="img/cards-img/gas.jpg" alt="Nature: ученые смогли доказать природное происхождение коронавируса SARS-CoV-2" width="360" height="165" srcset="img/cards-img/gas.jpg 1x, img/cards-img/gas@2x.jpg 2x">
+            <footer class="article-card-footer">
+              <img src="img/image 89.svg" alt="Lenta.ru 10:54" class="article-card-source-icon" width="20" height="20">
+              <div class="article-card-source-time">
+                <span class="article-card-source">Lenta.ru 10:54</span>
+              </div>
+            </footer>
+          </article>
+           <!-- NEWS-GRID-ITEM -->
+           <article class="news-grid-item article-card">
+            <h3 class="article-card-title">
+              <a class="article-card-link" href="#">Китайская марка JAC повысила цены на лифтбек и пикап в России</a>
+            </h3>
+            <p class="article-card-text">Две модели китайского бренда JAC из пяти, представленных на российском...</p>
+            <img class="article-card-img" src="img/cards-img/jac.jpg" alt="Китайская марка JAC повысила цены на лифтбек и пикап в России" width="360" height="165" srcset="img/cards-img/jac.jpg 1x, img/cards-img/jac@2x.jpg 2x">
+            <footer class="article-card-footer">
+              <img src="img/image 9.svg" alt="Тарантас Ньюс 10:44" class="article-card-source-icon" width="20" height="20">
+              <div class="article-card-source-time">
+                <span class="article-card-source">Тарантас Ньюс 10:44</span>
+              </div>
+            </footer>
+          </article>
+        </div>
+      </section>
+    </div>
+
+
   </main>
+
+
 
 </body>
 </html>
