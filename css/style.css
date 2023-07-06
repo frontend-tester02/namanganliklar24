@@ -58,11 +58,7 @@ body {
 }
 
 .button-orange {
-<<<<<<< HEAD
   background-color: #f78b3a;
-=======
-  background-color: #f78b3b;
->>>>>>> 231651a8612d49ca3c7ffd58e6ed92e81ed100bc
   color:#fff;
 }
 
@@ -225,7 +221,6 @@ body {
 .site-header-banner-link {
   display: flex;
 }
-<<<<<<< HEAD
 
 /* MAIN SECTION */
 
@@ -294,7 +289,6 @@ body {
   color:#5E5F61;
   font-size: 12px;
   font-family: "Rubik";
-=======
 
 
 
@@ -381,7 +375,6 @@ body {
   font-size: 12px;
   line-height: normal;
   color:#5e5f61;
->>>>>>> 231651a8612d49ca3c7ffd58e6ed92e81ed100bc
 }
 
 
@@ -403,7 +396,6 @@ body {
   color:#000;
   font-family: "Rubik";
 }
-<<<<<<< HEAD
 
 /* GLOBAL-NEWS */
 
@@ -641,5 +633,3 @@ body {
   width: 25px;
   height: 25px;
 }
-=======
->>>>>>> 231651a8612d49ca3c7ffd58e6ed92e81ed100bc
